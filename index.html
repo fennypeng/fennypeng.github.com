@@ -1,0 +1,229 @@
+
+
+<script type="text/javascript">
+	var retina = 'retina='+ window.devicePixelRatio +';'+ retina;
+	var screenwidth = 'screenwidth='+ window.screen.width;
+	document.cookie = retina;
+	document.cookie = screenwidth;
+	if(window.devicePixelRatio > 1){
+		document.location.reload(true);
+	}
+</script>
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<html id="ie8" lang="zh-CN">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="zh-CN">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> 
+
+<!-- Bootstrap  -->
+<link href="library/bootstrap3.0/css/global.min.css" rel="stylesheet" media="screen" />
+<link href="library/bootstrap3.0/css/responsive.min.css" rel="stylesheet" media="screen" />
+<link href="library/css/common.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="library/js/jquery-1.9.1.min.js"></script>
+<title>彭芬芬 · Fenny Peng</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" onload="completed();" ontouchstart="">
+
+<div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+		<div class="nav-collapse collapse">
+			<ul class="nav">
+				 <li>
+				  <a href="#profile">基本资料</a>
+				</li>
+				<li>
+				  <a href="#project">项目经验</a>
+				</li>
+				<li>
+				  <a href="#skill">专业技能</a>
+				</li>
+				<li>
+				  <a href="#experience">工作经历</a>
+				</li>
+				<li>
+				  <a href="#assessment">自我评价</a>
+				</li>
+				<li>
+				  <a href="#contact">联系方式</a>
+				</li>
+				<li>
+				  <a href="#about">关于本站</a>
+				</li>
+			</ul>
+		</div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+    <div class="alert alert-block ie-alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4>浏览器版本过低</h4>
+        <br>
+        <p>你知道不？你还在用十年前的浏览器！这个网页上的有很多好看的东西和动画效果都显示不了！</p>
+        <p>建议赶快<a href="http://windows.microsoft.com/zh-cn/internet-explorer/downloads/ie-10/worldwide-languages" target="_blank">升级</a>你的浏览器版本或使用 <a href="http://www.google.com/intl/zh-CN/chrome/browser/" target="_blank">Chrome</a> 或 <a href="http://www.apple.com.cn/safari/" target="_blank">Safari</a> 等高级浏览器。</p>
+    </div>
+<![endif]-->
+
+<header id="banner" class="hero-unit no-radius">
+	<div class="container text-center">
+        <h1><img src="library/images/title.png" alt="Fenny Peng"></h1>
+    </div>
+</header>
+
+<div class="shadow"></div>
+
+<article class="container"> 
+    <section id="profile" class="row description">
+        <div class="span10 offset1 panel-description button-text-panel text-center">
+        	<div class="padding-middle">
+               <img class="profile img-circle loading" src="library/images/profile.png">
+               <h4>I'm Fenny Peng</h4>
+               <h5>I'm living in Shanghai</h5>
+               <hr class="soften">
+               <p><span>Welcome, this is my personal website.</span></p>
+            </div>
+        </div>
+    </section>
+    
+    <div id="loading" class="text-center">
+    	<img class="spinner" src="library/images/spinner.gif">
+    	<span>加载中</span>
+    </div>
+    
+	<section id="project" class="row">
+		<div class="span12 panel">
+			<div class="row">
+                <div class="span12">
+                	<div class="padding-large">
+                    	<h1>项目经验</h1>
+						<hr class="soften">
+							<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Ag8qocmXV8smdEZCd080azBZRmFNckY3QzJwOTcyWXc&font=Bevan-PotanoSans&maptype=HYBRID&lang=zh-ch&height=650' width='100%' height='650' frameborder='0'></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+	<br>
+    <section id="skill" class="row">
+        <div class="span12 panel relative">
+			<img src="library/images/java.jpg" class="ribbon-skill">
+            <div class="row">
+                <div class="span8">
+                    <div class="row">                    
+                        <div class="span8">
+                        	<div class="block-left">
+                                <h1>专业技能</h1>
+								<hr class="soften">
+								<ul>
+									<li>擅长J2SE/J2EE，熟悉Struts/Spring/Hibernate，熟悉Junit/Jacob/Apache CLI；</li>
+									<li>擅长Javascript，熟悉Dojo/jQuery，略懂HTML5/CSS；</li>
+									<li>擅长Objective-c，熟悉Cocoa for iOS；</li>
+									<li>熟练SQL语句，熟悉数据库Oracle/MySQL/SQLite；</li>
+									<li>熟悉中间件Tomcat/Websphere</li>
+								</ul>
+                            </div>	
+                        </div>
+                    </div>
+				</div>
+            
+            </div>
+        </div>
+    </section>
+	
+	 <section id="experience" class="row">
+    	<div class="span12 panel relative">
+        	<img class="ribbon-experience" src="library/images/5.jpg" />
+        	<div class="row">
+                <div class="span12">
+                	<div class="padding-large">
+                    	<h1>工作经历</h1>
+						<hr class="soften">
+						<div class="col-1">
+							<p class="wo"><time>2012/1/1</time> -- 至今</p>
+						</div>
+						<div class="col-2">
+							<p class="wo">上海宝景信息技术有限公司</p>
+						</div>
+						<div class="col-3">
+							<p class="wo">高级软件工程师</p>
+						</div>
+						<br>
+						<div class="col-1">
+							<p class="wo"><time>2009/4/1</time> -- <time>2012/1/1</time></p>
+						</div>
+						<div class="col-2">
+							<p class="wo">上海兴候信息科技有限公司</p>
+						</div>
+						<div class="col-3">
+							<p class="wo">软件工程师</p>
+						</div>
+                    </div>
+            	</div>
+			</div>
+        </div>
+    </section>
+	
+	<section id="assessment" class="row">
+    	<div class="span12 panel relative">
+
+        	<div class="row">
+                <div class="span12">
+                	<div class="padding-large">
+                    	<h1>自我评价</h1>
+						<hr class="soften">
+						<p>我是臭屁爱吃芬毛</p>
+                    </div>
+            	</div>
+			</div>
+        </div>
+    </section>
+    <!--  联系 Contact  -->
+    
+    <section id="contact" class="row">
+    	<div class="span12 panel text-center relative">
+        	<div class="padding-large">
+					 <h1>联系方式</h1>
+					<hr class="soften">
+					<img src="library/images/qrcode.png" align="center" title="扫一扫 ^_^" />
+                
+               
+			</div>
+        </div>
+    </section>
+	
+	 <section id="about" class="row">
+    	<div class="span12 panel text-center relative">
+        	<div class="padding-large">
+					 <h1>关于本站</h1>
+					<hr class="soften">
+					<p><small>页面样式参考 <a href="http://www.dandyweng.com/" target="_blank">Dandy Weng</a> 的个人网站</small></p>
+                    <p>Copyright © 2013 fennypeng.com. All Rights Reserved.</p> 
+			</div>
+        </div>
+    </section>
+    
+   
+   
+</article>
+
+<script type="text/javascript" src="library/bootstrap3.0/scripts.min.js"></script>
+<script type="text/javascript" src="library/js/home.min.js"></script>
+    
+</body>
+</html>
